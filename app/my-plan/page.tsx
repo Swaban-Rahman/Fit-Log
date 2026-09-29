@@ -13,7 +13,6 @@ const bebasNeue = Bebas_Neue({
 });
 
 type Tab = "plan" | "saved";
-
 const sorters: Record<string, (a: Workout, b: Workout) => number> = {
   Duration: (a, b) => a.duration - b.duration,
   Calories: (a, b) => a.calories - b.calories,
